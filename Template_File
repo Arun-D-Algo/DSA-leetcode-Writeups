@@ -1,0 +1,67 @@
+# Problem Summary
+Briefly describe what the problem is asking in your own words.
+
+---
+
+# Brute Force Approach
+### Idea:
+Explain the most straightforward approach.
+
+### Approach:
+- Step 1:
+- Step 2:
+- Step 3:
+
+### Complexity:
+- Time Complexity: O()
+- Space Complexity: O()
+
+---
+
+# Optimization Thought Process
+Explain what inefficiencies exist in the brute force approach.
+
+### Observations:
+- Observation 1:
+- Observation 2:
+
+### Optimization:
+Describe how you improve the approach step-by-step.
+
+---
+
+# Optimal Approach
+### Key Idea:
+Clearly state the core idea behind the optimal solution.
+
+### Algorithm:
+- Step 1:
+- Step 2:
+- Step 3:
+
+---
+
+# Intuition
+Explain *why* the optimal approach works.
+
+- Reason 1:
+- Reason 2:
+- Key Insight:
+
+---
+
+# Dry Run
+Walk through the algorithm step-by-step on a sample input.
+
+- Step 1:
+- Step 2:
+- Step 3:
+
+---
+
+# Code (C++)
+```cpp
+class Solution {
+public:
+    // your function
+};
