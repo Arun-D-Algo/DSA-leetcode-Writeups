@@ -2,7 +2,7 @@
 LeetCode 242 - Valid Anagram
 
 Given two strings s and t, return true if t is an anagram of s,
-and false otherwise.
+and false otherwise.`
 
 An anagram is formed by rearranging the letters of a word or phrase,
 using all the original letters exactly once.
