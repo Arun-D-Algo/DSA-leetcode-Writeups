@@ -6,8 +6,8 @@ the new head of the reversed list.
 
 Approach:
 1. Use three pointers:
-   - prev: points to the previous node.
-   - curr: points to the current node.
+   - previous: points to the previous node.
+   - current: points to the current node.
    - nextNode: temporarily stores the next node.
 2. Traverse the linked list one node at a time.
 3. Reverse the direction of the current node's next pointer.
@@ -45,18 +45,18 @@ Space Complexity: O(1)
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* prev = nullptr;
-        ListNode* curr = head;
+        ListNode* previous = nullptr;
+        ListNode* current = head;
 
-        while(curr != nullptr) {
-            ListNode* nextNode = curr->next;
+        while(current != nullptr) {
+            ListNode* nextNode = current->next;
 
-            curr->next = prev;
+            current->next = previous;
 
-            prev = curr;
-            curr = nextNode;
+            previous = current;
+            current = nextNode;
         }
 
-        return prev;
+        return previous;
     }
 };
